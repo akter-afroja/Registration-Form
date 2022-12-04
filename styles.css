@@ -50,6 +50,7 @@ input, textarea {
     background-color:aliceblue;
     color: aliceblue;
     border: 1px solid azure ; 
+    border-radius: 2px;
 }
 
 .inline {
@@ -58,6 +59,23 @@ input, textarea {
     vertical-align: middle;
 }
 
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgb(5, 177, 125);
+    color: whitesmoke;
+    border-color: azure;
+    border-radius: 2px;
+    min-width: 300px;
+    text-align: center;
+    font-weight: 600;
+}
 
+input[type="file"] {
+    padding: 0 1px;
+}
 
 
